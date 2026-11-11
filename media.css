@@ -1,0 +1,76 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+
+    .headermid {
+        flex-direction: column;
+    }
+
+    .headermid nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .headermid nav ul li a {
+        font-size: 12px;
+    }
+
+    .bannersection {
+        height: auto;
+    }
+
+    .bannercontent {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .bannercontent h1 {
+        font-size: 28px;
+        line-height: 35px;
+        padding: 15px;
+    }
+
+    .bannercontent p {
+        font-size: 15px;
+    }
+
+    .sectionmid {
+        height: auto;
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+
+    .sectionmid figure {
+        width: 100%;
+    }
+
+    .sectionmidcontent {
+        width: 100%;
+    }
+
+    .sectionmid h1 {
+        font-size: 26px;
+    }
+
+    .sectionthree {
+        height: auto;
+        padding: 40px 15px;
+    }
+
+    .numbers {
+        flex-wrap: wrap;
+    }
+
+    .numberbox {
+        width: 50%;
+        padding: 15px 0;
+    }
+
+    .numberbox h2 {
+        font-size: 30px;
+    }
+
+    .numberbox h3 {
+        font-size: 15px;
+    }
+
+}
